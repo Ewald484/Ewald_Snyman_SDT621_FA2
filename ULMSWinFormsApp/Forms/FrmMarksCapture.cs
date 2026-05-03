@@ -66,7 +66,7 @@ namespace ULMSWinFormsApp.Forms
                 {
                     record.ResultStatus = "DISTINCTION";
                 }
-                else if (record.Average < 50)
+                else if (record.Average >= 50)
                 {
                     record.ResultStatus = "PASS";
                 }
