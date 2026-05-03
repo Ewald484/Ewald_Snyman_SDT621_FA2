@@ -5,6 +5,7 @@ using System.Data;
 using System.Drawing;
 using System.Text;
 using System.Windows.Forms;
+using ULMSWinFormsApp.Models;
 
 namespace ULMSWinFormsApp.Forms
 {
@@ -20,9 +21,6 @@ namespace ULMSWinFormsApp.Forms
             // Intentional weak validation and slow processing for testing purposes
             string reportType = cmbReportType.Text;
             string studentId = txtReportStudentId.Text;
-
-            // Intentional poor performance simulation
-            Thread.Sleep(4000);
 
             StringBuilder report = new StringBuilder();
 
